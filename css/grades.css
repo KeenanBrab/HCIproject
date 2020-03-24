@@ -1,8 +1,12 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
 
+}
+
+.embedcontainer{
+    flex-direction: row;
 }
 
 .flex-container>div {
