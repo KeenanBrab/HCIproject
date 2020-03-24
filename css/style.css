@@ -169,6 +169,15 @@ img {
   border-style: none; 
   width: 12rem;}
 
+.course{
+  margin-top: 7rem;
+  margin-right: 5rem;
+}
+.course1{
+  margin-top: 7rem;
+  margin-right: 5rem;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle; }
@@ -272,6 +281,7 @@ legend {
 
 progress {
   vertical-align: baseline; }
+
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
@@ -5420,7 +5430,7 @@ button.bg-dark:focus {
   background-color: transparent !important; }
 
 .border {
-  border: 1px solid #dee2e6 !important; }
+  border: 10px solid #dee2e6 !important; }
 
 .border-top {
   border-top: 1px solid #dee2e6 !important; }
@@ -5450,7 +5460,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #007bff !important; }
+  border-color: #0074E1 !important; }
 
 .border-secondary {
   border-color: #6c757d !important; }
@@ -8197,6 +8207,7 @@ h1, h2, h3, h4, h5,
   max-width: 270px;
   background: #0074E1;
   color: #fff;
+  margin-right: 6rem;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -8302,9 +8313,13 @@ a[data-toggle="collapse"] {
   width: 100%;
   padding: 0;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
+
+
 
 .btn.btn-primary {
   background: #3445b4;
