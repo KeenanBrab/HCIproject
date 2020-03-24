@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.embedcontainer{
+    flex-direction: row;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 18px;
+}
