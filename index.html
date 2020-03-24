@@ -1,65 +1,119 @@
 <!doctype html>
 <html lang="en">
+  <head>
+  	<title>Teacher DashBoard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-	<title>Teacher DashBoard</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar" >
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4">
+		  		<h1><a href="index.html" class="logo"><img src="images/logo-lighterbleep.png"><span>E-Learning</span></a></h1>
+	        <ul class="list-unstyled components mb-5">
+	          <li class="active">
+	            <a href="#"><span class="fa fa-book mr-3"></span>Courses</a>
+	          </li>
+	          <li>
+	              <a href="#"><span class="fa fa-user mr-3"></span>Student Profiles</a>
+	          </li>
+	          <li>
+              <a href="#"><span class="fa fa-plus-square mr-3"></span>Create Course</a>
+	          </li>
+	          <li>
+              <a href="#"><span class="fa fa-comments mr-3"></span>Chat</a>
+			  </li>
+			  <li>
+				<a href="#"><span class="fa fa-sign-out mr-3"></span>Logout</a>
+			</li>
+	        </ul>
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-	<div class="wrapper d-flex align-items-stretch">
-		<nav id="sidebar">
-			<div class="custom-menu">
-				<button type="button" id="sidebarCollapse" class="btn btn-primary">
-					<i class="fa fa-bars"></i>
-					<span class="sr-only">Toggle Menu</span>
-				</button>
+	        <div class="mb-5">
+				
 			</div>
-			<div class="p-4">
-				<h1><a href="index.html" class="logo"><img
-							src="images/logo-lighterbleep.png"><span>E-Learning</span></a></h1>
-				<ul class="list-unstyled components mb-5">
-					<li class="active">
-						<a href="#"><span class="fa fa-book mr-3"></span>Material</a>
-					</li>
-					<li>
-						<a href="#"><span class="fa fa-user mr-3"></span>Student Profiles</a>
-					</li>
-					<li>
-						<a href="#"><span class="fa fa-plus-square mr-3"></span>Create Course</a>
-					</li>
-					<li>
-						<a href="#"><span class="fa fa-comments mr-3"></span>Chat</a>
-					</li>
-					<li>
-						<a href="#"><span class="fa fa-sign-out mr-3"></span>Logout</a>
-					</li>
-				</ul>
 
-				<div class="mb-5">
-
-				</div>
-
-			</div>
-		</nav>
+	      </div>
+    	</nav>
 
 		<!-- Page Content  -->
-		<div id="content" class="p-4 p-md-5 pt-5">
-			<h1>Test</h1>
+	<h1 style="margin-top:2rem;">COURSES</h1>
+      <div id="content" class=" container courses">
+		  <div class="row">
+			<div class="card col-sm-6 col-md-3 course border border-primary rounded" style="width:20rem;">
+				<div class="card-body">
+					<h5 class="card-title">MATH 1P05</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Calculus I</h6>
+					<p class="card-text"># of Students: 120</p>
+					<p class="card-text">Term: Fall</p>
+					<a href="#" class="card-link">Course Info</a>
+				</div>
+			</div>
+			<div class="card col-sm-6 col-md-3 course border border-primary rounded" style="width:15rem;">
+				<div class="card-body">
+					<h5 class="card-title">MATH 1P66</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Mathematics for Computer Science I</h6>
+					<p class="card-text"># of Students: 70</p>
+					<p class="card-text">Term: Fall</p>
+					<a href="#" class="card-link">Course Info</a>
+				</div>
+			</div>
+			<div class="card col-sm-6 col-md-3 course border border-primary rounded" style="width:15rem;">
+				<div class="card-body">
+					<h5 class="card-title">MATH 1P67</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Mathematics for Computer Science II</h6>
+					<p class="card-text"># of Students: 124</p>
+					<p class="card-text">Term: Winter</p>
+					<a href="#" class="card-link">Course Info</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="card col-sm-6 col-md-3 course1 border border-primary rounded" style="width:15rem;">
+				<div class="card-body">
+					<h5 class="card-title">MATH 1P98</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Practical Statistics</h6>
+					<p class="card-text"># of Students: 80</p>
+					<p class="card-text">Term: Winter</p>
+					<a href="#" class="card-link">Course Info</a>
+				</div>
+			</div>
+			<div class="card col-sm-6 col-md-3 course1 border border-primary rounded" style="width:15rem;">
+				<div class="card-body">
+					<h5 class="card-title">MATH 4P61</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Theory of Computation</h6>
+					<p class="card-text"># of Students: 50</p>
+					<p class="card-text">Term: Winter</p>
+					<a href="#" class="card-link">Course Info</a>
+				</div>
+			</div>
+			<div class="card col-sm-6 col-md-3 course1 border border-primary rounded" style="width:15rem;">
+				<div class="card-body">
+					<h5 class="card-title">MATH 1P06</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Calculus II</h6>
+					<p class="card-text"># of Students: 156</p>
+					<p class="card-text">Term: Winter</p>
+					<a href="#" class="card-link">Course Info</a>
+				</div>
+			</div>
 		</div>
 	</div>
+		
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
