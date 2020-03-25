@@ -1,6 +1,7 @@
 body{
     margin-top:20px;
-    background:#f5f5f5;
+    background: url(/images/mountain.jpg) no-repeat center center fixed !important;
+    line-height: 1.9 !important;
 }
 
 /*
