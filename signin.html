@@ -23,12 +23,12 @@
                 </div>
                 <form class="col-12">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Username">
+                        <input type="text" class="form-control" placeholder="Username" id="userName">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" class="form-control" placeholder="Password" id="userPw">
                     </div>
-                    <buton type ="submit" class="btn btn-info"><i class="fa fa-sign-in"></i>Login</buton>
+                    <buton type ="submit" class="btn btn-info" onClick="check()"><i class="fa fa-sign-in"></i>Login</buton>
                 </form>
                 <div class="col-12 forgot">
                     <a href="#">Create Account</a>
@@ -42,11 +42,12 @@
 
 </div>
   </div>
-
+  
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/signinValidation.js"></script>
 </body>
 </html>
 
