@@ -7,6 +7,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.tabs{
+    margin-left: 7rem !important;
+}
 
 .embedcontainer{
     flex-direction: row;
