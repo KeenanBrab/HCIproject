@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
   }
+  body{
+   
+    background: url(/images/mountain.jpg) no-repeat center center fixed !important;
+   
+  }
 
   .tabelement {
     max-width: 50rem;
