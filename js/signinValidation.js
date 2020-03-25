@@ -21,13 +21,13 @@ function check() {
     //
     if(userName.value == studentName){
         if(userPw.value == studentPass ){
-            window.location.replace("indexStu.html");
+            window.location.replace("material.html");
         }else{
             alert('ERROR.');
         }
     } else if(userName.value == teacherName){
         if(userPw.value == teacherPass ){
-            window.location.replace("index.html");
+            window.location.replace("courses.html");
         }else{
             alert('ERROR.');
         }
