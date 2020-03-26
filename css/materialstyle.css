@@ -1,11 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  body{
-   
-    background: url(../images/mountain.jpg) no-repeat center center fixed !important;
-   
-  }
+
   .margincard{
     margin-left: 3.5rem;
   }
