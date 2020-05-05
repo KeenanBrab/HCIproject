@@ -69,7 +69,7 @@
   }
   .tab-switch:checked + .tab-label {
     background: #F79E02;
-    color: #2c3e50;
+    color: white;
     border-bottom: 0;
     border-right: 0.125rem solid #fff;
     transition: all 0.35s;

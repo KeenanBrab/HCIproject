@@ -17,3 +17,8 @@
     line-height: 75px;
     font-size: 18px;
 }
+
+.modaltrigger:hover{
+    color: orange;
+    font-size: 1.3rem;
+}

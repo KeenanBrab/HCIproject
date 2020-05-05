@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Create Course</title>
+  	<title>Add Resource</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -31,12 +31,15 @@
 	          </li>
 	          <li>
 	              <a href="profiles.html"><span class="fa fa-user mr-3"></span>Student Profiles</a>
-            </li>
-            <li>
-              <a href="resourceadd.html"><span class="fa fa-user mr-3"></span>Add Resource</a>
+              </li>
+              <li>
+                <a href="resourceadd.html"><span class="fa fa-user mr-3"></span>Add Resource</a>
+              </li>
+              <li>
+                <a href="teachersubmissions.html"><span class="fa fa-user mr-3"></span>Student Submissions</a>
             </li>
 	          <li class="active">
-              <a href="#"><span class="fa fa-plus-square mr-3"></span>Create Course</a>
+              <a href="create.html"><span class="fa fa-plus-square mr-3"></span>Create Course</a>
 	          </li>
 	          <li>
               <a href="chat1.html"><span class="fa fa-comments mr-3"></span>Chat</a>
@@ -55,7 +58,7 @@
 
 		<!-- Page Content  -->
     <div id="content" class="p-4 p-md-5 pt-5">
-      <h1 style="font-weight: 400;">Create Course</h1>
+      <h1 style="font-weight: 400;">Add Resource</h1>
 <div class="card">
 
     <h5 class="card-header bg-primary text-white text-center py-4">
@@ -66,44 +69,28 @@
         <!-- Form -->
         <form>
             <div class="form-group">
-                <label for="exampleInputEmail1">Course Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Calculus I">
+                <label for="exampleInputEmail1">Resource Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
             </div>
             <div class="form-row">
                 <div class="col-auto my-1">
-                    <label for="exampleInputPassword1">Course Code</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Math 1P05">
-                </div>
-                <div class="col-auto my-1">
-                    <label for="exampleInputEmail1">Capacity</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="100">
-                </div>
-                <div class="col-auto my-1">
-                    <label for="inlineFormCustomSelect">Department</label>
+                    <label for="inlineFormCustomSelect">Course</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                         <option selected>Choose...</option>
-                        <option value="1">Mathematics</option>
-                        <option value="2">Computer Science</option>
-                        <option value="3">Geography</option>
-                        <option value="3">Health Science</option>
-                        <option value="3">Business</option>
-                        <option value="3">Chemistry</option>
-                        <option value="3">Digital Humanities</option>
-                        <option value="3">Earth Sciences</option>
+                        <option value="1">Math 1P05</option>
+                        <option value="2">Math 1P06</option>
+                        <option value="3">Math 1P66</option>
+                        <option value="3">Math 1P67</option>
+                        <option value="3">Math 1P98</option>
+                        <option value="3">Math 4P61</option>
                     </select>
                 </div>
+                <div class="form-group" style="margin-top: 2.5rem;">
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1"> 
+                </div>
               </div>
-              <div class="form-row mt-3">
-                <div class="col-auto my-1">
-                    <label>Start Date</label>
-                    <input type="date" id="date">
-                </div>
-                <div class="col-auto my-1">
-                    <label>End Date</label>
-                    <input type="date" id="date1">
-                </div>
-            </div>
-            <button class="btn bg-primary btn-rounded btn-block z-depth-0 my-4 text-white " type="submit">Create</button>
+
+            <button class="btn bg-primary btn-rounded btn-block z-depth-0 my-4 text-white " type="submit">Add</button>
         </form>
         <!-- Form -->
     </div>

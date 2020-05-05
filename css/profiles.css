@@ -13,6 +13,13 @@
     flex-direction: row;
 }
 
+input::placeholder{color:black;}
+
+.modaltrigger:hover{
+    color: orange;
+    font-size: 1.3rem;
+}
+
 .flex-container>div {
     background-color: #f1f1f1;
     width: 100%;
