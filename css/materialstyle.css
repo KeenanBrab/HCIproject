@@ -18,6 +18,10 @@
     height: 41rem;
     width: 85rem;
   }
+
+  .tab-label:hover{
+    background:#F79E02;
+  }
   .tabs::before,
   .tabs::after {
     content: "";
